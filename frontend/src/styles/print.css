@@ -1,0 +1,16 @@
+@media print {
+
+  body {
+    background: white !important;
+  }
+
+  .pdf-section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+}

@@ -1,0 +1,76 @@
+
+<svg
+  width="128"
+  height="128"
+  viewBox="0 0 128 128"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Background -->
+  <rect
+    width="128"
+    height="128"
+    rx="24"
+    fill="#18181B"
+  />
+
+  <!-- Connections -->
+  <line
+    x1="64"
+    y1="39"
+    x2="64"
+    y2="53"
+    stroke="#E4E4E7"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+
+  <line
+    x1="57"
+    y1="72"
+    x2="40"
+    y2="85"
+    stroke="#E4E4E7"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+
+  <line
+    x1="71"
+    y1="72"
+    x2="88"
+    y2="85"
+    stroke="#E4E4E7"
+    stroke-width="6"
+    stroke-linecap="round"
+  />
+
+  <!-- Nodes -->
+
+  <circle
+    cx="64"
+    cy="28"
+    r="11"
+    fill="#E4E4E7"
+  />
+
+  <circle
+    cx="64"
+    cy="64"
+    r="11"
+    fill="#E4E4E7"
+  />
+
+  <circle
+    cx="32"
+    cy="92"
+    r="11"
+    fill="#E4E4E7"
+  />
+
+  <circle
+    cx="96"
+    cy="92"
+    r="11"
+    fill="#E4E4E7"
+  />
+</svg>
