@@ -15,7 +15,8 @@ export const designApi = baseApi.injectEndpoints({
             query:()=>({
                 url:'/design',
                 method:'GET'
-            })
+            }),
+            providesTags:['design']
         }),
 
         getDesignById:builder.query({
@@ -29,7 +30,8 @@ export const designApi = baseApi.injectEndpoints({
             query:(designId)=>({
                 url:`design/${designId}`,
                 method:'DELETE'
-            })
+            }),
+            invalidatesTags:['design']
         })
 
     })

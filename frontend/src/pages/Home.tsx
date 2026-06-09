@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function Home() {
+  const isAuthenticated = !!localStorage.getItem("sdtoken");
   const features = [
     {
       title: "Architecture Design",
@@ -72,7 +73,7 @@ export default function Home() {
               <div className="mt-4 flex flex-wrap gap-4">
 
                 <Link
-                  to="/dashboard"
+                  to={isAuthenticated?'/dashboard':'/generate-design'}
                   className="rounded-xl bg-[#E4E4E7] px-6 py-3 text-sm font-medium text-black hover:bg-white"
                 >
                   Get Started

@@ -39,7 +39,7 @@ type getDesignByIdResponse = {
 
 export async function createDesignService(userId:string,data:createDesignRequest):Promise<createDesignResponse>{
     let newDesign = await Design.create({userId,...data});
-    return {designId:newDesign._id.toString(),message:"Design created Successfully"}
+    return {designId:newDesign._id.toString(),message:"Design saved successfully!"}
 }
 
 export async function getDesignsByUserIdService(userId:string):Promise<getDesignsByUserIdResponse>{

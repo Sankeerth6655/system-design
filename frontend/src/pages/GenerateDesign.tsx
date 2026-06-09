@@ -69,6 +69,7 @@ export default function GenerateDesign() {
         setLoading(true);
         try {
             let response = await generateDesign({projectName,techStack:selectedTechStack,features}).unwrap();
+            console.log("AI response :: ",response);
             setGeneratedDesign(response.generatedDesign);
         } catch (error:any) {
             const message = error?.data?.error?.message ||  'This model is currently experiencing high demand, please try again later!'|| error?.data?.message 
