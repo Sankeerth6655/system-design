@@ -1,12 +1,4 @@
-import Loader from './components/Loader';
-import Navbar from './components/Navbar';
-import Auth from './pages/Auth';
-import Dashboard from './pages/Dashboard';
 import DesignDetails from './pages/DesignDetails';
-import GenerateDesign from './pages/GenerateDesign';
-import Home from './pages/Home'
-import NotFound from './pages/NotFound';
-
 function App(){
   return(
     <>
