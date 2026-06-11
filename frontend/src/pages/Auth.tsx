@@ -145,7 +145,7 @@ export default function Auth() {
             <button
               type="submit"
               className="
-              `cursor-pointer
+                cursor-pointer
                 w-full
                 rounded-xl
                 bg-[#E4E4E7]
